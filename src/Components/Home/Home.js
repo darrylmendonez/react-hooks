@@ -62,6 +62,11 @@ function Home() {
             Use Callback
           </NavLink>
         </li>
+        <li>
+          <NavLink className='nav-link' exact to={'/custom-hooks'}>
+            Custom Hooks
+          </NavLink>
+        </li>
       </ul>
     </>
   );
