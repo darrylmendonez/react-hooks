@@ -27,6 +27,26 @@ function Home() {
             Use Memo
           </NavLink>
         </li>
+        <li>
+          <NavLink className='nav-link' exact to={'/use-ref'}>
+            Use Ref
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className='nav-link' exact to={'/use-ref2'}>
+            Use Ref2
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className='nav-link' exact to={'/use-ref3'}>
+            Use Ref3
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className='nav-link' exact to={'/use-context'}>
+            Use Context
+          </NavLink>
+        </li>
       </ul>
     </>
   );
