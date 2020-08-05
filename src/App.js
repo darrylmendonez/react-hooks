@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './Components/Home'
 import UseState from './Components/UseState'
 import UseEffect from './Components/UseEffect'
 import UseEffect2 from './Components/UseEffect2'
+import UseMemo from './Components/UseMemo'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path='/use-state' component={UseState} />
         <Route path='/use-effect' component={UseEffect} />
         <Route path='/use-effect2' component={UseEffect2} />
+        <Route path='/use-memo' component={UseMemo} />
       </Switch>
     </BrowserRouter>
   )

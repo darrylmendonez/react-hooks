@@ -22,6 +22,11 @@ function Home() {
             Use Effect2
           </NavLink>
         </li>
+        <li>
+          <NavLink className='nav-link' exact to={'/use-memo'}>
+            Use Memo
+          </NavLink>
+        </li>
       </ul>
     </>
   );
