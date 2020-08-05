@@ -11,6 +11,7 @@ import UseRef3 from './Components/UseRef3'
 import UseContext from './Components/UseContext'
 import UseReducer from './Components/UseReducer'
 import UseReducer2 from './Components/UseReducer2'
+import UseCallback from './Components/UseCallback'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Route path='/use-context' component={UseContext} />
         <Route path='/use-reducer' component={UseReducer} />
         <Route path='/use-reducer2' component={UseReducer2} />
+        <Route path='/use-callback' component={UseCallback} />
       </Switch>
     </BrowserRouter>
   )
