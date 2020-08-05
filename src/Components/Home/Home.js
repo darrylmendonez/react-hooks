@@ -47,6 +47,11 @@ function Home() {
             Use Context
           </NavLink>
         </li>
+        <li>
+          <NavLink className='nav-link' exact to={'/use-reducer'}>
+            Use Reducer
+          </NavLink>
+        </li>
       </ul>
     </>
   );
